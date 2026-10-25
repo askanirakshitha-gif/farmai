@@ -1,0 +1,59 @@
+{
+  "model_architecture": "MobileNetV3-Large + Squeeze-and-Excitation",
+  "num_classes": 23,
+  "classes": [
+    "Apple___Apple_scab",
+    "Apple___Black_rot",
+    "Apple___Cedar_apple_rust",
+    "Apple___healthy",
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "Corn_(maize)___Common_rust_",
+    "Corn_(maize)___Northern_Leaf_Blight",
+    "Corn_(maize)___healthy",
+    "Pepper,_bell___Bacterial_spot",
+    "Pepper,_bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Tomato___Bacterial_spot",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Leaf_Mold",
+    "Tomato___Septoria_leaf_spot",
+    "Tomato___Spider_mites_Two-spotted_spider_mite",
+    "Tomato___Target_Spot",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "Tomato___Tomato_mosaic_virus",
+    "Tomato___healthy"
+  ],
+  "final_val_accuracy": 93.6,
+  "final_val_loss": 0.1983,
+  "total_training_time_seconds": 250.2,
+  "training_history": {
+    "train_loss": [
+      1.0688635110855103,
+      0.37187492847442627,
+      0.2599216401576996,
+      0.13197995722293854
+    ],
+    "train_acc": [
+      0.6937282085418701,
+      0.886062741279602,
+      0.9153310060501099,
+      0.9526132345199585
+    ],
+    "val_loss": [
+      0.5117921233177185,
+      0.3766871988773346,
+      0.3290072977542877,
+      0.19827507436275482
+    ],
+    "val_acc": [
+      0.8406828045845032,
+      0.866287350654602,
+      0.8805121183395386,
+      0.9359886050224304
+    ]
+  },
+  "model_path": "C:\\Users\\askan\\OneDrive\\Documents\\Desktop\\farm\\farmai\\backend\\models\\crop_mobilenetv3.keras"
+}
